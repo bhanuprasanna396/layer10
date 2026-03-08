@@ -1,0 +1,1289 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "artifact",
+      "artifact_type": "issue",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "created_at": "2025-12-20T12:00:00+00:00",
+      "text": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "title": "Token rotation docs are stale",
+      "metadata": {
+        "repository": "demo/layer10-memory",
+        "issue_number": 9,
+        "state": "closed",
+        "labels": [
+          "documentation"
+        ],
+        "assignees": [
+          "nina"
+        ],
+        "raw_issue_id": 102
+      },
+      "id": "art_b58237ab7a02bc31"
+    },
+    {
+      "kind": "artifact",
+      "artifact_type": "issue_comment",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+      "created_at": "2026-01-03T10:00:00+00:00",
+      "text": "Final call: use one canonical token lifecycle doc.",
+      "title": "Comment on #9",
+      "metadata": {
+        "repository": "demo/layer10-memory",
+        "issue_number": 9,
+        "parent_issue_artifact_id": "art_b58237ab7a02bc31",
+        "parent_issue_state": "closed",
+        "raw_comment_id": 9101
+      },
+      "id": "art_c1cde55a24dc256d"
+    },
+    {
+      "kind": "artifact",
+      "artifact_type": "issue",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "created_at": "2026-01-05T10:00:00+00:00",
+      "text": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "title": "Webhook retries failing for EU region",
+      "metadata": {
+        "repository": "demo/layer10-memory",
+        "issue_number": 12,
+        "state": "open",
+        "labels": [
+          "bug",
+          "priority/p1"
+        ],
+        "assignees": [
+          "alex"
+        ],
+        "raw_issue_id": 101
+      },
+      "id": "art_788c695c2464c606"
+    },
+    {
+      "kind": "artifact",
+      "artifact_type": "issue_comment",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12#issuecomment-9001",
+      "created_at": "2026-01-06T09:15:00+00:00",
+      "text": "Decision: retry backoff should be exponential and capped at 30m.",
+      "title": "Comment on #12",
+      "metadata": {
+        "repository": "demo/layer10-memory",
+        "issue_number": 12,
+        "parent_issue_artifact_id": "art_788c695c2464c606",
+        "parent_issue_state": "open",
+        "raw_comment_id": 9001
+      },
+      "id": "art_ec9c2fe624aade95"
+    },
+    {
+      "kind": "artifact",
+      "artifact_type": "issue",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15",
+      "created_at": "2026-01-10T08:20:00+00:00",
+      "text": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+      "title": "Ownership for queue worker",
+      "metadata": {
+        "repository": "demo/layer10-memory",
+        "issue_number": 15,
+        "state": "open",
+        "labels": [
+          "ops"
+        ],
+        "assignees": [
+          "sam"
+        ],
+        "raw_issue_id": 103
+      },
+      "id": "art_7af07cceb52a951d"
+    },
+    {
+      "kind": "artifact",
+      "artifact_type": "issue_comment",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+      "created_at": "2026-01-11T08:20:00+00:00",
+      "text": "Action item: Sam to own pager rotation for worker alerts.",
+      "title": "Comment on #15",
+      "metadata": {
+        "repository": "demo/layer10-memory",
+        "issue_number": 15,
+        "parent_issue_artifact_id": "art_7af07cceb52a951d",
+        "parent_issue_state": "open",
+        "raw_comment_id": 9201
+      },
+      "id": "art_3d94c1b2d078fa61"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "repository",
+      "canonical_name": "demo/layer10-memory",
+      "aliases": [],
+      "confidence": 1.0,
+      "external_refs": {
+        "repository": "demo/layer10-memory"
+      },
+      "id": "ent_4194147c181cd3b3"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "issue",
+      "canonical_name": "demo/layer10-memory#9",
+      "aliases": [],
+      "confidence": 0.8,
+      "external_refs": {
+        "repository": "demo/layer10-memory",
+        "issue_number": "9"
+      },
+      "id": "ent_a0e6590b5b5bc3ff"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "person",
+      "canonical_name": "omar",
+      "aliases": [
+        "omar"
+      ],
+      "confidence": 0.98,
+      "external_refs": {},
+      "id": "ent_5033ae07aca1190c"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "person",
+      "canonical_name": "nina",
+      "aliases": [
+        "nina"
+      ],
+      "confidence": 0.98,
+      "external_refs": {},
+      "id": "ent_c9f9ee26dd6a9737"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "label",
+      "canonical_name": "documentation",
+      "aliases": [
+        "documentation"
+      ],
+      "confidence": 0.95,
+      "external_refs": {},
+      "id": "ent_5f028f5083daa109"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "component",
+      "canonical_name": "docs",
+      "aliases": [
+        "docs"
+      ],
+      "confidence": 0.78,
+      "external_refs": {},
+      "id": "ent_b169fdb321b72f86"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "person",
+      "canonical_name": "sara",
+      "aliases": [
+        "sara"
+      ],
+      "confidence": 0.98,
+      "external_refs": {},
+      "id": "ent_79bb729617e1b0fe"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "issue",
+      "canonical_name": "demo/layer10-memory#12",
+      "aliases": [],
+      "confidence": 1.0,
+      "external_refs": {
+        "repository": "demo/layer10-memory",
+        "issue_number": "12"
+      },
+      "id": "ent_8c0033cb20f89b69"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "person",
+      "canonical_name": "alex",
+      "aliases": [
+        "alex"
+      ],
+      "confidence": 0.85,
+      "external_refs": {},
+      "id": "ent_9c9602eb7be6ec11"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "label",
+      "canonical_name": "bug",
+      "aliases": [
+        "bug"
+      ],
+      "confidence": 0.95,
+      "external_refs": {},
+      "id": "ent_3d1cc4f32ee3dd6e"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "label",
+      "canonical_name": "priority/p1",
+      "aliases": [
+        "priority/p1"
+      ],
+      "confidence": 0.95,
+      "external_refs": {},
+      "id": "ent_4a68506596911c13"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "component",
+      "canonical_name": "webhooks",
+      "aliases": [
+        "webhooks"
+      ],
+      "confidence": 0.78,
+      "external_refs": {},
+      "id": "ent_fd5e6e6a44bc37ec"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "person",
+      "canonical_name": "mira",
+      "aliases": [
+        "mira"
+      ],
+      "confidence": 0.98,
+      "external_refs": {},
+      "id": "ent_b5662820bfcdc930"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "issue",
+      "canonical_name": "demo/layer10-memory#15",
+      "aliases": [],
+      "confidence": 1.0,
+      "external_refs": {
+        "repository": "demo/layer10-memory",
+        "issue_number": "15"
+      },
+      "id": "ent_bcb3a214b158bffc"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "person",
+      "canonical_name": "sam",
+      "aliases": [
+        "sam"
+      ],
+      "confidence": 0.92,
+      "external_refs": {},
+      "id": "ent_6d1dfe123f8fa926"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "label",
+      "canonical_name": "ops",
+      "aliases": [
+        "ops"
+      ],
+      "confidence": 0.95,
+      "external_refs": {},
+      "id": "ent_97cb7faae731d959"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "component",
+      "canonical_name": "worker",
+      "aliases": [
+        "worker"
+      ],
+      "confidence": 0.78,
+      "external_refs": {},
+      "id": "ent_e1657c570ca5fb45"
+    },
+    {
+      "kind": "entity",
+      "entity_type": "person",
+      "canonical_name": "lead-bot",
+      "aliases": [
+        "lead-bot"
+      ],
+      "confidence": 0.98,
+      "external_refs": {},
+      "id": "ent_acb5485522da67b8"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_label",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.97,
+      "status": "current",
+      "event_time": "2026-01-04T16:30:00+00:00",
+      "valid_from": "2025-12-20T12:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_cb2393b9f7909626"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "assigned_to",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.92,
+      "status": "current",
+      "event_time": "2026-01-04T16:30:00+00:00",
+      "valid_from": "2025-12-20T12:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_0805635bbbabc391"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "issue_state",
+      "value": "closed",
+      "polarity": "affirmed",
+      "confidence": 1.0,
+      "status": "current",
+      "event_time": "2026-01-04T16:30:00+00:00",
+      "valid_from": "2025-12-20T12:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_8bbf1b4c3bde17d1"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_component",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.78,
+      "status": "current",
+      "event_time": "2025-12-20T12:00:00+00:00",
+      "valid_from": "2025-12-20T12:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_ce45b2b76b390767"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "decision",
+      "value": "We decided to publish a runbook for rotation.",
+      "polarity": "affirmed",
+      "confidence": 0.72,
+      "status": "current",
+      "event_time": "2025-12-20T12:00:00+00:00",
+      "valid_from": "2025-12-20T12:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_641d76e338d47f7f"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "action_item",
+      "value": "Please @nina update onboarding links.",
+      "polarity": "affirmed",
+      "confidence": 0.68,
+      "status": "current",
+      "event_time": "2025-12-20T12:00:00+00:00",
+      "valid_from": "2025-12-20T12:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_1c32b0905d9e83e7"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_component",
+      "value": "repository_link",
+      "polarity": "affirmed",
+      "confidence": 1.0,
+      "status": "current",
+      "event_time": "2025-12-20T12:00:00+00:00",
+      "valid_from": "2025-12-20T12:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_fa0e5bbe6d41be12"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "decision",
+      "value": "Final call: use one canonical token lifecycle doc.",
+      "polarity": "affirmed",
+      "confidence": 0.72,
+      "status": "current",
+      "event_time": "2026-01-03T10:00:00+00:00",
+      "valid_from": "2026-01-03T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_edf701e40b7d8b6a"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_label",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.97,
+      "status": "current",
+      "event_time": "2026-01-08T18:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_5f983e33473205c6"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_label",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.97,
+      "status": "current",
+      "event_time": "2026-01-08T18:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_62a842860453cdef"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "assigned_to",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.92,
+      "status": "current",
+      "event_time": "2026-01-08T18:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_ed2e03e139e219f2"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "issue_state",
+      "value": "open",
+      "polarity": "affirmed",
+      "confidence": 1.0,
+      "status": "current",
+      "event_time": "2026-01-08T18:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_29bf142623f8f47b"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_component",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.78,
+      "status": "current",
+      "event_time": "2026-01-05T10:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_e945d6d6cadf45cc"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "action_item",
+      "value": "Action item: @alex investigate queue worker and share logs.",
+      "polarity": "affirmed",
+      "confidence": 0.68,
+      "status": "current",
+      "event_time": "2026-01-05T10:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_18e937b1ce865ba1"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "blocks",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.7,
+      "status": "current",
+      "event_time": "2026-01-05T10:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_131112070c3b7573"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_component",
+      "value": "repository_link",
+      "polarity": "affirmed",
+      "confidence": 1.0,
+      "status": "current",
+      "event_time": "2026-01-05T10:00:00+00:00",
+      "valid_from": "2026-01-05T10:00:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_2a4e38e57309d440"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "decision",
+      "value": "Decision: retry backoff should be exponential and capped at 30m.",
+      "polarity": "affirmed",
+      "confidence": 0.72,
+      "status": "current",
+      "event_time": "2026-01-06T09:15:00+00:00",
+      "valid_from": "2026-01-06T09:15:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_002a232fa323a5d0"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_label",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.97,
+      "status": "current",
+      "event_time": "2026-01-14T08:20:00+00:00",
+      "valid_from": "2026-01-10T08:20:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_fd343f5ac00c5117"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "assigned_to",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.92,
+      "status": "current",
+      "event_time": "2026-01-14T08:20:00+00:00",
+      "valid_from": "2026-01-10T08:20:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_7e9cf6b109ee4c14"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "issue_state",
+      "value": "open",
+      "polarity": "affirmed",
+      "confidence": 1.0,
+      "status": "current",
+      "event_time": "2026-01-14T08:20:00+00:00",
+      "valid_from": "2026-01-10T08:20:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_e5b00cc3fbff7167"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_component",
+      "value": null,
+      "polarity": "affirmed",
+      "confidence": 0.78,
+      "status": "current",
+      "event_time": "2026-01-10T08:20:00+00:00",
+      "valid_from": "2026-01-10T08:20:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_08adfbce2b0ed5b9"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "action_item",
+      "value": "Next step: @sam monitor retries for one week.",
+      "polarity": "affirmed",
+      "confidence": 0.68,
+      "status": "current",
+      "event_time": "2026-01-10T08:20:00+00:00",
+      "valid_from": "2026-01-10T08:20:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_ebc74853391baf8b"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "mentions_component",
+      "value": "repository_link",
+      "polarity": "affirmed",
+      "confidence": 1.0,
+      "status": "current",
+      "event_time": "2026-01-10T08:20:00+00:00",
+      "valid_from": "2026-01-10T08:20:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_dc630e9c53cb6b35"
+    },
+    {
+      "kind": "claim",
+      "claim_type": "action_item",
+      "value": "Action item: Sam to own pager rotation for worker alerts.",
+      "polarity": "affirmed",
+      "confidence": 0.68,
+      "status": "current",
+      "event_time": "2026-01-11T08:20:00+00:00",
+      "valid_from": "2026-01-11T08:20:00+00:00",
+      "valid_to": null,
+      "extraction_version": "extractor=v1|schema=1.0.0",
+      "id": "clm_74926d9bfb3fbc13"
+    },
+    {
+      "kind": "merge",
+      "merge_type": "artifact",
+      "reason": "exact_text_match",
+      "score": 1.0,
+      "timestamp": "2026-03-08T09:10:50.090416+00:00",
+      "reversible": true,
+      "metadata": {
+        "winner_source": "https://github.com/demo/layer10-memory/issues/12#issuecomment-9001",
+        "loser_source": "https://github.com/demo/layer10-memory/issues/12#issuecomment-9002"
+      },
+      "id": "mrg_9bdf5b69cc992e12"
+    },
+    {
+      "id": "art_6742784fd96a028f"
+    },
+    {
+      "kind": "merge",
+      "merge_type": "claim",
+      "reason": "semantic_claim_key_match",
+      "score": 0.98,
+      "timestamp": "2026-03-08T09:10:50.091840+00:00",
+      "reversible": true,
+      "metadata": {},
+      "id": "mrg_9661bb6f33b32c39"
+    },
+    {
+      "id": "clm_ecd0b6d4b7cb2062"
+    },
+    {
+      "kind": "merge",
+      "merge_type": "claim",
+      "reason": "semantic_claim_key_match",
+      "score": 0.98,
+      "timestamp": "2026-03-08T09:10:50.091887+00:00",
+      "reversible": true,
+      "metadata": {},
+      "id": "mrg_f199d706c1260321"
+    },
+    {
+      "id": "clm_55add2d1dfe870e1"
+    },
+    {
+      "kind": "merge",
+      "merge_type": "claim",
+      "reason": "semantic_claim_key_match",
+      "score": 0.98,
+      "timestamp": "2026-03-08T09:10:50.091920+00:00",
+      "reversible": true,
+      "metadata": {},
+      "id": "mrg_cd27464476e9bd64"
+    },
+    {
+      "id": "clm_933e0227207321a2"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_cb2393b9f7909626",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_0805635bbbabc391",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_8bbf1b4c3bde17d1",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_ce45b2b76b390767",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_641d76e338d47f7f",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_1c32b0905d9e83e7",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_fa0e5bbe6d41be12",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_a0e6590b5b5bc3ff",
+      "target": "clm_edf701e40b7d8b6a",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_5f983e33473205c6",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_62a842860453cdef",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_ed2e03e139e219f2",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_29bf142623f8f47b",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_e945d6d6cadf45cc",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_18e937b1ce865ba1",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_131112070c3b7573",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_2a4e38e57309d440",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_8c0033cb20f89b69",
+      "target": "clm_002a232fa323a5d0",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_bcb3a214b158bffc",
+      "target": "clm_fd343f5ac00c5117",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_bcb3a214b158bffc",
+      "target": "clm_7e9cf6b109ee4c14",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_bcb3a214b158bffc",
+      "target": "clm_e5b00cc3fbff7167",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_bcb3a214b158bffc",
+      "target": "clm_08adfbce2b0ed5b9",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_bcb3a214b158bffc",
+      "target": "clm_ebc74853391baf8b",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_bcb3a214b158bffc",
+      "target": "clm_dc630e9c53cb6b35",
+      "key": 0
+    },
+    {
+      "relation": "subject_of",
+      "source": "ent_bcb3a214b158bffc",
+      "target": "clm_74926d9bfb3fbc13",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_cb2393b9f7909626",
+      "target": "ent_5f028f5083daa109",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_9327d5f4d5c5d539",
+      "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-04T16:30:00+00:00",
+      "source": "clm_cb2393b9f7909626",
+      "target": "art_b58237ab7a02bc31",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_0805635bbbabc391",
+      "target": "ent_c9f9ee26dd6a9737",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_3b7f6f8dfeb9cee1",
+      "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-04T16:30:00+00:00",
+      "source": "clm_0805635bbbabc391",
+      "target": "art_b58237ab7a02bc31",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_ad47b588885a9781",
+      "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-04T16:30:00+00:00",
+      "source": "clm_8bbf1b4c3bde17d1",
+      "target": "art_b58237ab7a02bc31",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_ce45b2b76b390767",
+      "target": "ent_b169fdb321b72f86",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_c21c2e4a77785a98",
+      "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "char_start": 0,
+      "char_end": 15,
+      "observed_at": "2026-01-04T16:30:00+00:00",
+      "source": "clm_ce45b2b76b390767",
+      "target": "art_b58237ab7a02bc31",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_694b2d2428c0cd30",
+      "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "char_start": 17,
+      "char_end": 62,
+      "observed_at": "2026-01-04T16:30:00+00:00",
+      "source": "clm_641d76e338d47f7f",
+      "target": "art_b58237ab7a02bc31",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_57bfb2af8db7c1ee",
+      "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "char_start": 63,
+      "char_end": 100,
+      "observed_at": "2026-01-04T16:30:00+00:00",
+      "source": "clm_1c32b0905d9e83e7",
+      "target": "art_b58237ab7a02bc31",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_fa0e5bbe6d41be12",
+      "target": "ent_4194147c181cd3b3",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_7f0c0548e939bbe0",
+      "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-04T16:30:00+00:00",
+      "source": "clm_fa0e5bbe6d41be12",
+      "target": "art_b58237ab7a02bc31",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_06630963b5eacec3",
+      "excerpt": "Final call: use one canonical token lifecycle doc.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-03T10:00:00+00:00",
+      "source": "clm_fa0e5bbe6d41be12",
+      "target": "art_c1cde55a24dc256d",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_e4a8dbd795f41367",
+      "excerpt": "Final call: use one canonical token lifecycle doc.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+      "char_start": 0,
+      "char_end": 50,
+      "observed_at": "2026-01-03T10:00:00+00:00",
+      "source": "clm_edf701e40b7d8b6a",
+      "target": "art_c1cde55a24dc256d",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_5f983e33473205c6",
+      "target": "ent_3d1cc4f32ee3dd6e",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_020001a605d12f12",
+      "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_5f983e33473205c6",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_62a842860453cdef",
+      "target": "ent_4a68506596911c13",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_eb0b910278347549",
+      "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_62a842860453cdef",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_ed2e03e139e219f2",
+      "target": "ent_9c9602eb7be6ec11",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_edfbe48e85594cb9",
+      "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_ed2e03e139e219f2",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_2b0943d5c5fa01eb",
+      "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_29bf142623f8f47b",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_e945d6d6cadf45cc",
+      "target": "ent_fd5e6e6a44bc37ec",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_bb370394b9c356bc",
+      "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": 0,
+      "char_end": 19,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_e945d6d6cadf45cc",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_5e37b976f190b9f1",
+      "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": 56,
+      "char_end": 115,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_18e937b1ce865ba1",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_131112070c3b7573",
+      "target": "ent_a0e6590b5b5bc3ff",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_6a6230ebf3d53d2e",
+      "excerpt": "ks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": 127,
+      "char_end": 129,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_131112070c3b7573",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_2a4e38e57309d440",
+      "target": "ent_4194147c181cd3b3",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_02fad8ac58f95421",
+      "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-08T18:00:00+00:00",
+      "source": "clm_2a4e38e57309d440",
+      "target": "art_788c695c2464c606",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_2d94e586dad8f4a6",
+      "excerpt": "Decision: retry backoff should be exponential and capped at 30m.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12#issuecomment-9001",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-06T09:15:00+00:00",
+      "source": "clm_2a4e38e57309d440",
+      "target": "art_ec9c2fe624aade95",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_85b9a545a2246f2b",
+      "excerpt": "Decision: retry backoff should be exponential and capped at 30m.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/12#issuecomment-9001",
+      "char_start": 0,
+      "char_end": 64,
+      "observed_at": "2026-01-06T09:15:00+00:00",
+      "source": "clm_002a232fa323a5d0",
+      "target": "art_ec9c2fe624aade95",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_fd343f5ac00c5117",
+      "target": "ent_97cb7faae731d959",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_9b07b0ec207e8d89",
+      "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-14T08:20:00+00:00",
+      "source": "clm_fd343f5ac00c5117",
+      "target": "art_7af07cceb52a951d",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_7e9cf6b109ee4c14",
+      "target": "ent_6d1dfe123f8fa926",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_ee5f0885cb56d1e5",
+      "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-14T08:20:00+00:00",
+      "source": "clm_7e9cf6b109ee4c14",
+      "target": "art_7af07cceb52a951d",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_4571d466b8dc1d46",
+      "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-14T08:20:00+00:00",
+      "source": "clm_e5b00cc3fbff7167",
+      "target": "art_7af07cceb52a951d",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_08adfbce2b0ed5b9",
+      "target": "ent_e1657c570ca5fb45",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_7a93caae0397da0c",
+      "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15",
+      "char_start": 0,
+      "char_end": 17,
+      "observed_at": "2026-01-14T08:20:00+00:00",
+      "source": "clm_08adfbce2b0ed5b9",
+      "target": "art_7af07cceb52a951d",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_0fc308efa6ac1071",
+      "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15",
+      "char_start": 55,
+      "char_end": 100,
+      "observed_at": "2026-01-14T08:20:00+00:00",
+      "source": "clm_ebc74853391baf8b",
+      "target": "art_7af07cceb52a951d",
+      "key": 0
+    },
+    {
+      "relation": "object_of",
+      "source": "clm_dc630e9c53cb6b35",
+      "target": "ent_4194147c181cd3b3",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_24078ec7ac541e27",
+      "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-14T08:20:00+00:00",
+      "source": "clm_dc630e9c53cb6b35",
+      "target": "art_7af07cceb52a951d",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_7c507f9094315b8b",
+      "excerpt": "Action item: Sam to own pager rotation for worker alerts.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+      "char_start": null,
+      "char_end": null,
+      "observed_at": "2026-01-11T08:20:00+00:00",
+      "source": "clm_dc630e9c53cb6b35",
+      "target": "art_3d94c1b2d078fa61",
+      "key": 0
+    },
+    {
+      "relation": "supported_by",
+      "source_id": "src_a65c095843057ecf",
+      "excerpt": "Action item: Sam to own pager rotation for worker alerts.",
+      "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+      "char_start": 0,
+      "char_end": 57,
+      "observed_at": "2026-01-11T08:20:00+00:00",
+      "source": "clm_74926d9bfb3fbc13",
+      "target": "art_3d94c1b2d078fa61",
+      "key": 0
+    },
+    {
+      "relation": "winner",
+      "source": "mrg_9bdf5b69cc992e12",
+      "target": "art_ec9c2fe624aade95",
+      "key": 0
+    },
+    {
+      "relation": "loser",
+      "source": "mrg_9bdf5b69cc992e12",
+      "target": "art_6742784fd96a028f",
+      "key": 0
+    },
+    {
+      "relation": "winner",
+      "source": "mrg_9661bb6f33b32c39",
+      "target": "clm_fa0e5bbe6d41be12",
+      "key": 0
+    },
+    {
+      "relation": "loser",
+      "source": "mrg_9661bb6f33b32c39",
+      "target": "clm_ecd0b6d4b7cb2062",
+      "key": 0
+    },
+    {
+      "relation": "winner",
+      "source": "mrg_f199d706c1260321",
+      "target": "clm_2a4e38e57309d440",
+      "key": 0
+    },
+    {
+      "relation": "loser",
+      "source": "mrg_f199d706c1260321",
+      "target": "clm_55add2d1dfe870e1",
+      "key": 0
+    },
+    {
+      "relation": "winner",
+      "source": "mrg_cd27464476e9bd64",
+      "target": "clm_dc630e9c53cb6b35",
+      "key": 0
+    },
+    {
+      "relation": "loser",
+      "source": "mrg_cd27464476e9bd64",
+      "target": "clm_933e0227207321a2",
+      "key": 0
+    }
+  ]
+}

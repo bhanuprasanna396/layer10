@@ -1,0 +1,989 @@
+[
+  {
+    "question": "What is the current status of issues in demo/layer10-memory?",
+    "retrieved_at": "2026-03-08T09:10:50.096798+00:00",
+    "claims": [
+      {
+        "claim_id": "clm_fa0e5bbe6d41be12",
+        "claim_type": "mentions_component",
+        "subject": "demo/layer10-memory#9",
+        "object": "demo/layer10-memory",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 3.959933563599745,
+        "event_time": "2025-12-20T12:00:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_7f0c0548e939bbe0",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          },
+          {
+            "source_id": "src_06630963b5eacec3",
+            "artifact_id": "art_c1cde55a24dc256d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+            "excerpt": "Final call: use one canonical token lifecycle doc.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-03T10:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_dc630e9c53cb6b35",
+        "claim_type": "mentions_component",
+        "subject": "demo/layer10-memory#15",
+        "object": "demo/layer10-memory",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 3.8590168413738706,
+        "event_time": "2026-01-10T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_24078ec7ac541e27",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          },
+          {
+            "source_id": "src_7c507f9094315b8b",
+            "artifact_id": "art_3d94c1b2d078fa61",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+            "excerpt": "Action item: Sam to own pager rotation for worker alerts.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-11T08:20:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_8bbf1b4c3bde17d1",
+        "claim_type": "issue_state",
+        "subject": "demo/layer10-memory#9",
+        "object": "closed",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 0.8179555606822995,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_ad47b588885a9781",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_e5b00cc3fbff7167",
+        "claim_type": "issue_state",
+        "subject": "demo/layer10-memory#15",
+        "object": "open",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 0.8113677044609684,
+        "event_time": "2026-01-14T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_4571d466b8dc1d46",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_cb2393b9f7909626",
+        "claim_type": "mentions_label",
+        "subject": "demo/layer10-memory#9",
+        "object": "documentation",
+        "status": "current",
+        "confidence": 0.97,
+        "score": 0.7879555606822994,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_9327d5f4d5c5d539",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_fd343f5ac00c5117",
+        "claim_type": "mentions_label",
+        "subject": "demo/layer10-memory#15",
+        "object": "ops",
+        "status": "current",
+        "confidence": 0.97,
+        "score": 0.7813677044609684,
+        "event_time": "2026-01-14T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_9b07b0ec207e8d89",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_0805635bbbabc391",
+        "claim_type": "assigned_to",
+        "subject": "demo/layer10-memory#9",
+        "object": "nina",
+        "status": "current",
+        "confidence": 0.92,
+        "score": 0.7379555606822995,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_3b7f6f8dfeb9cee1",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_7e9cf6b109ee4c14",
+        "claim_type": "assigned_to",
+        "subject": "demo/layer10-memory#15",
+        "object": "sam",
+        "status": "current",
+        "confidence": 0.92,
+        "score": 0.7313677044609684,
+        "event_time": "2026-01-14T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_ee5f0885cb56d1e5",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_a0e6590b5b5bc3ff",
+        "entity_type": "issue",
+        "canonical_name": "demo/layer10-memory#9",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_4194147c181cd3b3",
+        "entity_type": "repository",
+        "canonical_name": "demo/layer10-memory",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_bcb3a214b158bffc",
+        "entity_type": "issue",
+        "canonical_name": "demo/layer10-memory#15",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_5f028f5083daa109",
+        "entity_type": "label",
+        "canonical_name": "documentation",
+        "aliases": [
+          "documentation"
+        ]
+      },
+      {
+        "entity_id": "ent_97cb7faae731d959",
+        "entity_type": "label",
+        "canonical_name": "ops",
+        "aliases": [
+          "ops"
+        ]
+      },
+      {
+        "entity_id": "ent_c9f9ee26dd6a9737",
+        "entity_type": "person",
+        "canonical_name": "nina",
+        "aliases": [
+          "nina"
+        ]
+      },
+      {
+        "entity_id": "ent_6d1dfe123f8fa926",
+        "entity_type": "person",
+        "canonical_name": "sam",
+        "aliases": [
+          "sam"
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "source_id": "src_7f0c0548e939bbe0",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_06630963b5eacec3",
+        "artifact_id": "art_c1cde55a24dc256d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+        "excerpt": "Final call: use one canonical token lifecycle doc."
+      },
+      {
+        "source_id": "src_24078ec7ac541e27",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      },
+      {
+        "source_id": "src_7c507f9094315b8b",
+        "artifact_id": "art_3d94c1b2d078fa61",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+        "excerpt": "Action item: Sam to own pager rotation for worker alerts."
+      },
+      {
+        "source_id": "src_ad47b588885a9781",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_4571d466b8dc1d46",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      },
+      {
+        "source_id": "src_9327d5f4d5c5d539",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_9b07b0ec207e8d89",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      },
+      {
+        "source_id": "src_3b7f6f8dfeb9cee1",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_ee5f0885cb56d1e5",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      }
+    ],
+    "conflicts": [],
+    "policy": {
+      "grounding": "All returned claims include direct evidence excerpts and source URLs",
+      "ambiguity": "Conflicted claims are included with status=conflicted"
+    }
+  },
+  {
+    "question": "What decisions were made recently in demo/layer10-memory?",
+    "retrieved_at": "2026-03-08T09:10:50.097560+00:00",
+    "claims": [
+      {
+        "claim_id": "clm_fa0e5bbe6d41be12",
+        "claim_type": "mentions_component",
+        "subject": "demo/layer10-memory#9",
+        "object": "demo/layer10-memory",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 3.688005246685479,
+        "event_time": "2025-12-20T12:00:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_7f0c0548e939bbe0",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          },
+          {
+            "source_id": "src_06630963b5eacec3",
+            "artifact_id": "art_c1cde55a24dc256d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+            "excerpt": "Final call: use one canonical token lifecycle doc.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-03T10:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_dc630e9c53cb6b35",
+        "claim_type": "mentions_component",
+        "subject": "demo/layer10-memory#15",
+        "object": "demo/layer10-memory",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 3.6010900778454165,
+        "event_time": "2026-01-10T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_24078ec7ac541e27",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          },
+          {
+            "source_id": "src_7c507f9094315b8b",
+            "artifact_id": "art_3d94c1b2d078fa61",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+            "excerpt": "Action item: Sam to own pager rotation for worker alerts.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-11T08:20:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_8bbf1b4c3bde17d1",
+        "claim_type": "issue_state",
+        "subject": "demo/layer10-memory#9",
+        "object": "closed",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 0.5,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_ad47b588885a9781",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_29bf142623f8f47b",
+        "claim_type": "issue_state",
+        "subject": "demo/layer10-memory#12",
+        "object": "open",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 0.5,
+        "event_time": "2026-01-08T18:00:00+00:00",
+        "valid_from": "2026-01-05T10:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_2b0943d5c5fa01eb",
+            "artifact_id": "art_788c695c2464c606",
+            "source_url": "https://github.com/demo/layer10-memory/issues/12",
+            "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-08T18:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_cb2393b9f7909626",
+        "claim_type": "mentions_label",
+        "subject": "demo/layer10-memory#9",
+        "object": "documentation",
+        "status": "current",
+        "confidence": 0.97,
+        "score": 0.47,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_9327d5f4d5c5d539",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_5f983e33473205c6",
+        "claim_type": "mentions_label",
+        "subject": "demo/layer10-memory#12",
+        "object": "bug",
+        "status": "current",
+        "confidence": 0.97,
+        "score": 0.47,
+        "event_time": "2026-01-08T18:00:00+00:00",
+        "valid_from": "2026-01-05T10:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_020001a605d12f12",
+            "artifact_id": "art_788c695c2464c606",
+            "source_url": "https://github.com/demo/layer10-memory/issues/12",
+            "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-08T18:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_0805635bbbabc391",
+        "claim_type": "assigned_to",
+        "subject": "demo/layer10-memory#9",
+        "object": "nina",
+        "status": "current",
+        "confidence": 0.92,
+        "score": 0.42000000000000004,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_3b7f6f8dfeb9cee1",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_ed2e03e139e219f2",
+        "claim_type": "assigned_to",
+        "subject": "demo/layer10-memory#12",
+        "object": "alex",
+        "status": "current",
+        "confidence": 0.92,
+        "score": 0.42000000000000004,
+        "event_time": "2026-01-08T18:00:00+00:00",
+        "valid_from": "2026-01-05T10:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_edfbe48e85594cb9",
+            "artifact_id": "art_788c695c2464c606",
+            "source_url": "https://github.com/demo/layer10-memory/issues/12",
+            "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-08T18:00:00+00:00"
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_a0e6590b5b5bc3ff",
+        "entity_type": "issue",
+        "canonical_name": "demo/layer10-memory#9",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_4194147c181cd3b3",
+        "entity_type": "repository",
+        "canonical_name": "demo/layer10-memory",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_bcb3a214b158bffc",
+        "entity_type": "issue",
+        "canonical_name": "demo/layer10-memory#15",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_8c0033cb20f89b69",
+        "entity_type": "issue",
+        "canonical_name": "demo/layer10-memory#12",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_5f028f5083daa109",
+        "entity_type": "label",
+        "canonical_name": "documentation",
+        "aliases": [
+          "documentation"
+        ]
+      },
+      {
+        "entity_id": "ent_3d1cc4f32ee3dd6e",
+        "entity_type": "label",
+        "canonical_name": "bug",
+        "aliases": [
+          "bug"
+        ]
+      },
+      {
+        "entity_id": "ent_c9f9ee26dd6a9737",
+        "entity_type": "person",
+        "canonical_name": "nina",
+        "aliases": [
+          "nina"
+        ]
+      },
+      {
+        "entity_id": "ent_9c9602eb7be6ec11",
+        "entity_type": "person",
+        "canonical_name": "alex",
+        "aliases": [
+          "alex"
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "source_id": "src_7f0c0548e939bbe0",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_06630963b5eacec3",
+        "artifact_id": "art_c1cde55a24dc256d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+        "excerpt": "Final call: use one canonical token lifecycle doc."
+      },
+      {
+        "source_id": "src_24078ec7ac541e27",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      },
+      {
+        "source_id": "src_7c507f9094315b8b",
+        "artifact_id": "art_3d94c1b2d078fa61",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+        "excerpt": "Action item: Sam to own pager rotation for worker alerts."
+      },
+      {
+        "source_id": "src_ad47b588885a9781",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_2b0943d5c5fa01eb",
+        "artifact_id": "art_788c695c2464c606",
+        "source_url": "https://github.com/demo/layer10-memory/issues/12",
+        "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9."
+      },
+      {
+        "source_id": "src_9327d5f4d5c5d539",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_020001a605d12f12",
+        "artifact_id": "art_788c695c2464c606",
+        "source_url": "https://github.com/demo/layer10-memory/issues/12",
+        "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9."
+      },
+      {
+        "source_id": "src_3b7f6f8dfeb9cee1",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_edfbe48e85594cb9",
+        "artifact_id": "art_788c695c2464c606",
+        "source_url": "https://github.com/demo/layer10-memory/issues/12",
+        "excerpt": "component: webhooks. Retries fail after token rotation. Action item: @alex investigate queue worker and share logs. Blocked by #9."
+      }
+    ],
+    "conflicts": [],
+    "policy": {
+      "grounding": "All returned claims include direct evidence excerpts and source URLs",
+      "ambiguity": "Conflicted claims are included with status=conflicted"
+    }
+  },
+  {
+    "question": "Who owns or is assigned to active work in demo/layer10-memory?",
+    "retrieved_at": "2026-03-08T09:10:50.098334+00:00",
+    "claims": [
+      {
+        "claim_id": "clm_dc630e9c53cb6b35",
+        "claim_type": "mentions_component",
+        "subject": "demo/layer10-memory#15",
+        "object": "demo/layer10-memory",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 3.9824126410178797,
+        "event_time": "2026-01-10T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_24078ec7ac541e27",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          },
+          {
+            "source_id": "src_7c507f9094315b8b",
+            "artifact_id": "art_3d94c1b2d078fa61",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+            "excerpt": "Action item: Sam to own pager rotation for worker alerts.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-11T08:20:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_fa0e5bbe6d41be12",
+        "claim_type": "mentions_component",
+        "subject": "demo/layer10-memory#9",
+        "object": "demo/layer10-memory",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 3.959933563599745,
+        "event_time": "2025-12-20T12:00:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_7f0c0548e939bbe0",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          },
+          {
+            "source_id": "src_06630963b5eacec3",
+            "artifact_id": "art_c1cde55a24dc256d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+            "excerpt": "Final call: use one canonical token lifecycle doc.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-03T10:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_8bbf1b4c3bde17d1",
+        "claim_type": "issue_state",
+        "subject": "demo/layer10-memory#9",
+        "object": "closed",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 0.8179555606822995,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_ad47b588885a9781",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_e5b00cc3fbff7167",
+        "claim_type": "issue_state",
+        "subject": "demo/layer10-memory#15",
+        "object": "open",
+        "status": "current",
+        "confidence": 1.0,
+        "score": 0.8113677044609684,
+        "event_time": "2026-01-14T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_4571d466b8dc1d46",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_cb2393b9f7909626",
+        "claim_type": "mentions_label",
+        "subject": "demo/layer10-memory#9",
+        "object": "documentation",
+        "status": "current",
+        "confidence": 0.97,
+        "score": 0.7879555606822994,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_9327d5f4d5c5d539",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_fd343f5ac00c5117",
+        "claim_type": "mentions_label",
+        "subject": "demo/layer10-memory#15",
+        "object": "ops",
+        "status": "current",
+        "confidence": 0.97,
+        "score": 0.7813677044609684,
+        "event_time": "2026-01-14T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_9b07b0ec207e8d89",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_0805635bbbabc391",
+        "claim_type": "assigned_to",
+        "subject": "demo/layer10-memory#9",
+        "object": "nina",
+        "status": "current",
+        "confidence": 0.92,
+        "score": 0.7379555606822995,
+        "event_time": "2026-01-04T16:30:00+00:00",
+        "valid_from": "2025-12-20T12:00:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_3b7f6f8dfeb9cee1",
+            "artifact_id": "art_b58237ab7a02bc31",
+            "source_url": "https://github.com/demo/layer10-memory/issues/9",
+            "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-04T16:30:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim_id": "clm_7e9cf6b109ee4c14",
+        "claim_type": "assigned_to",
+        "subject": "demo/layer10-memory#15",
+        "object": "sam",
+        "status": "current",
+        "confidence": 0.92,
+        "score": 0.7313677044609684,
+        "event_time": "2026-01-14T08:20:00+00:00",
+        "valid_from": "2026-01-10T08:20:00+00:00",
+        "valid_to": null,
+        "evidence": [
+          {
+            "source_id": "src_ee5f0885cb56d1e5",
+            "artifact_id": "art_7af07cceb52a951d",
+            "source_url": "https://github.com/demo/layer10-memory/issues/15",
+            "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week.",
+            "char_start": null,
+            "char_end": null,
+            "observed_at": "2026-01-14T08:20:00+00:00"
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_bcb3a214b158bffc",
+        "entity_type": "issue",
+        "canonical_name": "demo/layer10-memory#15",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_4194147c181cd3b3",
+        "entity_type": "repository",
+        "canonical_name": "demo/layer10-memory",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_a0e6590b5b5bc3ff",
+        "entity_type": "issue",
+        "canonical_name": "demo/layer10-memory#9",
+        "aliases": []
+      },
+      {
+        "entity_id": "ent_5f028f5083daa109",
+        "entity_type": "label",
+        "canonical_name": "documentation",
+        "aliases": [
+          "documentation"
+        ]
+      },
+      {
+        "entity_id": "ent_97cb7faae731d959",
+        "entity_type": "label",
+        "canonical_name": "ops",
+        "aliases": [
+          "ops"
+        ]
+      },
+      {
+        "entity_id": "ent_c9f9ee26dd6a9737",
+        "entity_type": "person",
+        "canonical_name": "nina",
+        "aliases": [
+          "nina"
+        ]
+      },
+      {
+        "entity_id": "ent_6d1dfe123f8fa926",
+        "entity_type": "person",
+        "canonical_name": "sam",
+        "aliases": [
+          "sam"
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "source_id": "src_24078ec7ac541e27",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      },
+      {
+        "source_id": "src_7c507f9094315b8b",
+        "artifact_id": "art_3d94c1b2d078fa61",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15#issuecomment-9201",
+        "excerpt": "Action item: Sam to own pager rotation for worker alerts."
+      },
+      {
+        "source_id": "src_7f0c0548e939bbe0",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_06630963b5eacec3",
+        "artifact_id": "art_c1cde55a24dc256d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9#issuecomment-9101",
+        "excerpt": "Final call: use one canonical token lifecycle doc."
+      },
+      {
+        "source_id": "src_ad47b588885a9781",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_4571d466b8dc1d46",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      },
+      {
+        "source_id": "src_9327d5f4d5c5d539",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_9b07b0ec207e8d89",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      },
+      {
+        "source_id": "src_3b7f6f8dfeb9cee1",
+        "artifact_id": "art_b58237ab7a02bc31",
+        "source_url": "https://github.com/demo/layer10-memory/issues/9",
+        "excerpt": "component: docs. We decided to publish a runbook for rotation. Please @nina update onboarding links."
+      },
+      {
+        "source_id": "src_ee5f0885cb56d1e5",
+        "artifact_id": "art_7af07cceb52a951d",
+        "source_url": "https://github.com/demo/layer10-memory/issues/15",
+        "excerpt": "component: worker. Ownership moved from @alex to @sam. Next step: @sam monitor retries for one week."
+      }
+    ],
+    "conflicts": [],
+    "policy": {
+      "grounding": "All returned claims include direct evidence excerpts and source URLs",
+      "ambiguity": "Conflicted claims are included with status=conflicted"
+    }
+  }
+]

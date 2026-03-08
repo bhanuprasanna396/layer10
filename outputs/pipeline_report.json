@@ -1,0 +1,30 @@
+{
+  "input": "data/raw/demo_github_corpus.json",
+  "extractor": "heuristic",
+  "model": null,
+  "counts": {
+    "artifacts": 6,
+    "entities": 18,
+    "claims": 24,
+    "merges": 4
+  },
+  "validation": {
+    "invalid_claims": 0,
+    "repaired_claims": 0
+  },
+  "warnings": [],
+  "artifact_canonical_map": {
+    "art_b58237ab7a02bc31": "art_b58237ab7a02bc31",
+    "art_c1cde55a24dc256d": "art_c1cde55a24dc256d",
+    "art_788c695c2464c606": "art_788c695c2464c606",
+    "art_ec9c2fe624aade95": "art_ec9c2fe624aade95",
+    "art_6742784fd96a028f": "art_ec9c2fe624aade95",
+    "art_7af07cceb52a951d": "art_7af07cceb52a951d",
+    "art_3d94c1b2d078fa61": "art_3d94c1b2d078fa61"
+  },
+  "outputs": {
+    "snapshot": "outputs/memory_snapshot.json",
+    "graph": "outputs/memory_graph.json",
+    "context_packs": "outputs/context_packs.json"
+  }
+}
